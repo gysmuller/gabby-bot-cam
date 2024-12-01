@@ -4,7 +4,7 @@ This project is for a camera module using an ESP32 microcontroller. The camera c
 
 ## Overview
 
-The Gabby Bot Camera project leverages the ESP32-CAM module to capture images and upload them to a server. It is designed for applications such as remote monitoring, security, and IoT projects.
+The Gabby Bot Camera project leverages the ESP32-CAM module to capture images and upload them to a server. It is designed for applications such as remote monitoring, security, and IoT projects. Pinout details can be found [here](https://microcontrollerslab.com/esp32-cam-ai-thinker-pinout-gpio-pins-features-how-to-program).
 
 ## Files
 
@@ -23,10 +23,6 @@ The Gabby Bot Camera project leverages the ESP32-CAM module to capture images an
 ## Pin Configuration
 
 The pin configurations for various camera models are defined in `camera_pins.h`. Ensure that the correct camera model is defined in `gabby_bot_cam.ino` to match your hardware setup.
-
-## Example Output
-
-When the device is running, you should see output similar to the following in the Serial Monitor:
 
 ## Setup
 
